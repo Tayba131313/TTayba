@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes slider {
+    0% {
+        left: -1600px;
+    }
+    20% {
+        left: -1050px;
+    }
+    40% {
+        left: -550px;
+    }
+    60% {
+        left: -100px;
+    }
+    80% {
+        left: -0px;
+    }
+    100% {
+        left: 0px;
+    }
+    120% {
+        left: -100px;
+    }
+    140% {
+        left: -550px;
+    }
+    160% {
+        left: -1050px;
+    }
+    180% {
+        left: -1600px;
+    }
+    200% {
+        left: -1600px;
+    }
+}
+
+.container {
+    width: 200px;
+    height: 500px;
+    margin: 12px auto;
+    overflow: hidden;
+    background-color: rgba(230, 235, 240, 0.877);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0. 5);
+    border-radius: 20px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    margin-left: -21px;
+    margin: 2px;
+}
+
+.Box {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    flex-wrap: wrap;
+    display: contents;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-animation-name: slider;
+    -webkit-animation-duration: 65s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+
+.contain {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.FOO {
+    text-align: center;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+footer {
+    margin-left: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url(./WRKFLW/maxresdefault-1-1140x641.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 500px;
+    justify-content: space-between;
+    margin: 12px auto;
+    padding: 50px 0;
+    background-color: rgba(230, 235, 240, 0.877);
+    box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0. 5);
+    border-radius: 20px;
+}
+
+nav:hover {
+    background-color: rgba(21, 255, 0, 0.541);
+    width: 600px;
+    letter-spacing: 4px;
+    transition: 1.5s;
+}
+
+a {
+    font-family: monospace;
+    justify-content: space-between;
+    margin: 75px;
+    margin-left: 90px;
+    font-size: 25px;
+    font-style: inherit;
+    font-synthesis: style;
+}
+
+body {
+    background-color: rgb(138, 126, 180);
+    align-items: center;
+    justify-content: center;
+}
+
+.Cont {
+    justify-content: center;
+    justify-items: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 12px auto;
+    padding: 50px 0;
+    background-color: rgba(230, 235, 240, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0. 5);
+    border-radius: 20px;
+}
+
+.Fond {
+    width: 700px;
+    margin: 12px auto;
+    padding: 50px 0;
+    background-color: rgba(230, 235, 240, 0.877);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0. 5);
+    border-radius: 20px;
+}
+
+.Form-box {
+    width: 500px;
+    margin: 12px auto;
+    padding: 50px 0;
+    background-color: rgba(230, 235, 240, 0.877);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0. 5);
+    border-radius: 20px;
+}
+
+.input-box {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid rgba(226, 14, 14, 0.521);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button {
+    color: blue;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 5px;
+    width: 25%;
+    padding: 5px;
+    margin-left: 35%;
+}
+
+button:hover {
+    letter-spacing: 4px;
+    background-color: rgb(228, 214, 15);
+    color: black;
+    transition: 1s;
+}
+
+.btn {
+    color: blue;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 5px;
+    width: 25%;
+    padding: 5px;
+    margin-left: 35%;
+}
+
+.btn:hover {
+    letter-spacing: 4px;
+    background-color: rgb(228, 214, 15);
+    color: black;
+    transition: 1s;
+}
+
+textarea {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 10px rgba(226, 14, 14, 0.521);
+    background-color: rgba(0, 255, 255, 0.568);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

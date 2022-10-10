@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my style.css">
+    <title>CDB Corporation</title>
+</head>
+
+<body>
+    <nav><a href="Index.html">Home</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <div class="Form-box">
+        <form action="https://formspree.io/f/myyorbly" method="post">
+            <div class="input-box ">
+                <input type="text " id="name " name="Nom" placeholder="Nom ">
+            </div>
+            <div class="input-box ">
+                <input type="text " id="prenom " name="Prenom" placeholder="Prénom ">
+            </div>
+            <div class="input-box ">
+                <input type="text " id="email " name="Email" placeholder="Adresse email ">
+            </div>
+            <div class="input-box ">
+                <input type="text " id="Tel " name="Tel" placeholder="Tel num ">
+            </div>
+            <div class="input-box ">
+                <Textarea cols=" " rows="10 " id="msg " name="Message" placeholder="Votre project en 2 MOTS "></Textarea>
+            </div>
+            <input type="submit" id="btn" onclick="" class="btn" value="Envoyer">
+
+        </form>
+    </div>
+    <script>
+        const btn = document.getElementById('btn')
+        btn.addEventListener('click', () => {
+            alert('Message recu')
+        })
+    </script>
+</body>
+
+</html
